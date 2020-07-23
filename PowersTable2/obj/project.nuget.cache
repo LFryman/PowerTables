@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XGHYjZLJsOJRrrAkWUn2Ew10GQirCqkvb55FS9hP/ieflW15ajnQ0TOBgIwPX/wmPUtRPJwFNZCr42gLT0FL/w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Zach\\source\\repos\\PowersTable2\\PowersTable2\\PowersTable2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Zach\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
