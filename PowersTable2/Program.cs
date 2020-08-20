@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Linq.Expressions;
+using System.Runtime.CompilerServices;
 
 namespace PowersTable2
 {
+    //THis is my change to demo git 
     class Program
     {
         public static int SquaredNumber(int num)
@@ -43,15 +46,30 @@ namespace PowersTable2
 
                 Console.WriteLine("Would you like to continue?");
                 string input = Console.ReadLine();
-                if (input == "yes")
+
+                bool vInput = false;
+                while (vInput == false)
                 {
-                    lContinue = true;
+                    if (input == "yes")
+                    {
+                        lContinue = true;
+                        break; 
+                    }
+                    else if (input == "no")
+                    {
+                        lContinue = false;
+                        Console.WriteLine("Come again!");
+                        break; 
+                    }
+                    else
+                    {
+                        Console.WriteLine("Stop. Enter yes or no.");
+                        input = Console.ReadLine();
+                        vInput = false; 
+                    }
                 }
-                else
-                {
-                    lContinue = false;
-                    Console.WriteLine("Come again!");
-                }
+
+                
             }
         }
         
